@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    font-family: Arial, sans-serif; /* Fuente general */
+}
+
+/* Contenedor principal */
+.container {
+    padding: 20px;
+}
+
+/* Estilos para la barra superior */
+.row.bg-dark {
+    background-color: rgb(251, 99, 85); /* Fondo negro para la barra */
+    color: white; /* Texto blanco en la barra */
+    padding: 10px;
+}
+
+/* Estilo para el título */
+.title {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Estilos para la tabla */
+.table-container {
+    margin-top: 20px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Colapsar bordes */
+}
+
+.table th, .table td {
+    padding: 10px;
+    text-align: left; /* Alinear texto a la izquierda */
+}
+
+.table-dark {
+    background-color: #f8f9fa; /* Fondo claro para la tabla */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #e9ecef; /* Color de fondo para filas impares */
+}
+
+/* Estilos para los botones de la tabla */
+.boton {
+    color: white; /* Texto blanco */
+    text-decoration: none; /* Sin subrayado */
+    padding: 10px 15px;
+    background-color: rgb(251, 99, 85); /* Fondo negro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+.boton:hover {
+    background-color: rgba(251, 99, 85,.6); /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos para las imágenes en la tabla */
+.imgtable {
+    width: 20px; /* Ancho de las imágenes */
+    height: 20px; /* Alto de las imágenes */
+    vertical-align: middle; /* Alinear verticalmente */
+    margin-left: 5px; /* Espacio a la izquierda */
+}

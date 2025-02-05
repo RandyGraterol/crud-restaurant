@@ -1,0 +1,87 @@
+/* Estilos generales */
+body {
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    font-family: Arial, sans-serif; /* Fuente general */
+    margin: 0; /* Eliminar márgenes por defecto */
+    padding: 20px; /* Espaciado alrededor del contenido */
+}
+
+/* Estilo para el botón de regresar */
+.regresar {
+    cursor: pointer; /* Cambiar cursor al pasar sobre el texto */
+    color: white; /* Texto blanco */
+    background-color: rgb(251, 99, 85); /* Fondo negro */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Mostrar como bloque en línea */
+    margin-bottom: 20px; /* Espacio debajo del botón */
+    text-align: center; /* Centrar texto */
+}
+
+/* Estilos para el formulario */
+.formulario {
+    background-color: #f8f9fa; /* Fondo claro para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Estilos para los campos de entrada */
+.inputD {
+    margin-bottom: 15px; /* Espacio entre campos */
+}
+
+.inputD label {
+    display: block; /* Mostrar etiqueta como bloque */
+    margin-bottom: 5px; /* Espacio debajo de la etiqueta */
+}
+
+.inputD input {
+    width: 100%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para el botón de registrar */
+button {
+    background-color: rgb(251, 99, 85); /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 10px 15px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de fuente */
+    width: 100%; /* Ancho completo */
+}
+
+button:hover {
+    background-color: #333; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .formulario {
+        padding: 15px; /* Reducir padding en pantallas pequeñas */
+    }
+
+    .inputD input {
+        padding: 8px; /* Reducir padding en campos de entrada */
+    }
+
+    button {
+        padding: 8px; /* Reducir padding en el botón */
+    }
+}
+
+@media (max-width: 480px) {
+    .regresar {
+        width: 100%; /* Botón ocupa todo el ancho */
+        text-align: center; /* Centrar texto en el botón */
+    }
+
+    button {
+        font-size: 14px; /* Reducir tamaño de fuente en pantallas muy pequeñas */
+    }
+}
